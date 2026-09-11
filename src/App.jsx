@@ -45,7 +45,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (!adminKey) return;
+    if (!adminKey || !API_BASE) return;
 
     loadTeams();
     loadEvent();
