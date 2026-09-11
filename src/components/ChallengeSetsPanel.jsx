@@ -50,7 +50,7 @@ export default function ChallengeSetsPanel({ adminKey, event, sets, onRefresh })
     <>
       <div className="panel">
         <h3>1. Generate Challenge Sets</h3>
-        <p className="muted">Generates 5 distinct challenge sets (Rounds 1, 2 & 4) using Gemini. Leave the API key blank to use offline sample sets instead.</p>
+        <p className="muted">Generates 5 distinct challenge sets (30 Round-1 MCQs, 15 Round-2 coding challenges, 10 Round-3 power challenges, and 5 Round-4 decoding stages) using Gemini. Leave the API key blank to use offline sample sets instead.</p>
         <input 
           type="password" 
           placeholder="Gemini API key (optional)" 
